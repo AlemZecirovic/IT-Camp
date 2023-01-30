@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forme u HTML</h1>
+    <form action="Proba/5cas.html" target="_blank">
+      <label for="username">Unesite vas username:</label>
+      <input type="text" name="Username" id="username" placeholder="username" />
+      <br />
+      <br />
+      <label for="email">Unesite email adresu</label>
+      <input type="email" name="Email adresa" id="email" required />
+      <br />
+      <br />
+      <label for="password">Unesite vasu lozinku:</label>
+      <input
+        type="password"
+        name="Lozinka"
+        id="password"
+        required
+        placeholder="password"
+      />
+      <br />
+      <br />
+      <label for="godine">Unesite svoje godine</label>
+      <input
+        type="number"
+        name="Broj godina"
+        id="godine"
+        step="2"
+        min="18"
+        max="120"
+      />
+      <br />
+      <br />
+      <label for="datum">Unesite datum rodjenja</label>
+      <input
+        type="date"
+        name="Date"
+        id="datum"
+        min="1970-01-01"
+        max="2020-01-01"
+      />
+      <br />
+      <br />
+      <p>Odaberite nekoliko stavki:</p>
+      <label for="Banana">Banana</label>
+      <input type="checkbox" name="banana" id="Banana" />
+      <br />
+      <br />
+      <label for="Jagoda">Jagoda</label>
+      <input type="checkbox" name="jagoda" id="Jagoda" />
+      <br />
+      <br />
+      <label for="Kivi">Kivi</label>
+      <input type="checkbox" name="kivi" id="Kivi" />
+      <br />
+      <br />
+      <p>Odaberite pol:</p>
+      <label for="male">Male</label>
+      <input type="radio" name="M" id="male" value="male" />
+      <br />
+      <br />
+      <label for="female">Female</label>
+      <input type="Radio" name="M" id="female" value="female" />
+      <br />
+      <br />
+      <label for="eyeColor">Eye Color</label>
+      <select name="Eye Color" id="eyeColor">
+        <option value="Brown" selected>Brown</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+      </select>
+      <br />
+      <br />
+      <label for="Biografija">Ispisite Vasu biografiju:</label> <br />
+      <textarea
+        name="Biography"
+        id="Biografjija"
+        cols="30"
+        rows="10"
+        maxlength="50"
+      >
+      Moje ime je...
+      </textarea>
+
+      <br />
+      <br />
+      <label for="Phone">Unesite broj telefona</label>
+      <input type="Tel" name="Phone" id="Phone" />
+      <br />
+      <br />
+      <label for="color">Vasa omiljena boja je:</label>
+      <input type="Color" name="Boja" id="color" />
+      <br />
+      <br />
+      <button type="reset">RESETUJ</button>
+      <button type="submit">POTVRDI</button>
+    </form>
+  </body>
+</html>

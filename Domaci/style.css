@@ -1,0 +1,34 @@
+.first h1 {
+  text-align: justifys;
+  background-color: whitesmoke;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.first p {
+  background-color: grey;
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  background-color: bisque;
+}
+.second h1 {
+  text-align: end;
+  background-color: whitesmoke;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.second p {
+  background-color: grey;
+  text-align: end;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.third h1 {
+  background-color: whitesmoke;
+  text-align: start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.third p {
+  background-color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: start;
+}

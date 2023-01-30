@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe4c4;
+}
+
+.first {
+  /* background-color: #808080; */
+  height: 500px;
+  background-image: url(./Pozadina2.jpg);
+  background-repeat: no-repeat;
+  /* background-size: 400px 200px; prva vrednost se odnosi na sirinu a druga na visinu pozadine */
+  background-size: contain;
+}
+
+li:nth-of-type(odd) {
+  background-color: blueviolet;
+}
+li:nth-of-type(even) {
+  background-color: brown;
+}
+ul {
+  /* text-align: center; */
+  margin: auto;
+  width: 500px;
+  list-style-position: inside;
+}
+
+li:nth-last-child(1) {
+  background-color: chartreuse;
+}
