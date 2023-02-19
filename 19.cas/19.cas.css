@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: rgb(95, 158, 160);
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: row; defaultna vrednost */
+  /* flex-direction: column; */
+
+  /* Horizontalno poravnanje */
+
+  /* justify-content: flex-start; defaultna vrednost horizontalnog poravnanja */
+  /* justify-content: center; skupljanje childa i centrira ih (ali ne centrira tekst) */
+  /* justify-content: flex-end; pomera se child sa desne strane odnosno na kraju  */
+  /* justify-content: space-between; ostavlja prostor izmedju childa (levo , sredina , desno) */
+  /* justify-content: space-around; nije isti porstor izmedju elemenata ali odvaja od ivica i pravi prostor izmedju childa,prostor izmedju je veci od prostora prema ivicama */
+  /* justify-content: space-evenly; prostor sa svih strana je isti, i na ivicama i izmedju childa */
+  /* justify-content: stretch; isto kao default nema potrebe da se koristi ili ubacuje */
+
+  /* Verticalno poravnanje */
+
+  /* align-items: flex-start ; one se nalaze na vrhu tj na pocetku i to je defaultno stanje verticalnog poravnanja */
+  /* align-items: center; nalaze se u sredini */
+  /* align-items: flex-end; nalaze se na dnu parenta  */
+  align-items: center;
+}
+.box {
+  /* margin: 20px; */
+  /* padding: 40px; */
+  width: 150px;
+  height: 150px;
+}
+
+.first {
+  background-color: #deb887;
+  align-self: flex-start;
+}
+
+.second {
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.third {
+  background-color: bisque;
+  align-self: flex-end;
+}
