@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  background-color: aquamarine;
+  width: 500px;
+  height: 500px;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  /* border-radius: 50%; */
+  background-color: coral;
+  /* ease in,easeinout,linear */
+  transition: all 0.5s ease-in-out 0.3s;
+  /* transition-property: transform ; na koji se property odnosi   */
+  /* transition-duration: 1s;trajanje transformacije  */
+  /* transition-timing-function: ease-in-out; funkcija po kojoj se vrsi transformacija */
+  /* transition-delay: 2s; odlaganje transformacija */
+}
+
+.parent:hover .child {
+  /* transform: translateY(100%)  translateX(100%); pomeranje po Y osi i X osi */
+  /* transform: translateY(100%) translateX(100%); */
+  transform: translateX(100%);
+  /* transition: 0.5s; */
+  /* transition: 0.4s; */
+  background-color: chartreuse;
+}
+/* 
+.child:hover {
+  /* transform: scale(1.2); jedna vrednost povecava (smanjuje) element na osnovu unete vrednosti proporcionalno po x i y osi */
+/* ako imamo dve vrednosti prva se odnosi na sirinu, druga na visinu */
+/* transform: scale(1.2); */
+/* transition: 0.4s; */
+/* } */
